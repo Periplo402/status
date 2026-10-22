@@ -22,9 +22,10 @@ status-website:
   name: Periplo Status
   introTitle: "**Periplo**: real-time status of the x402 facilitator and Bazaar on Stellar testnet."
   introMessage: >-
-    Checks run every 5 minutes directly against the live testnet facilitator
-    (periplo-testnet.fly.dev) and the project site. Periplo runs on Stellar
-    testnet only; there is no mainnet deployment yet.
+    Checks run on a schedule through GitHub Actions against the live testnet
+    facilitator (periplo-testnet.fly.dev) and the project site. GitHub runs
+    scheduled checks on a best-effort basis, so in practice they can be hours
+    apart. Periplo runs on Stellar testnet only; there is no mainnet deployment yet.
   navbar:
     - title: Status
       href: /
